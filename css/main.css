@@ -64,6 +64,7 @@ body {
     background-color: #cce2e0;
     font-size:1.0em;
     overflow:hidden;
+    text-align: center;
 }
 .gallery {
     width:100%;
@@ -73,15 +74,16 @@ body {
     top: 0;
     bottom: 0;
     margin: auto;
+    text-align: center;
 }
 .hero {
-    opacity: 0.3;
-    /*display: none;
-    margin:0 auto;*/
+    /*opacity: 0.3;*/
+    display: none;
+    margin:0 auto;
 }
 .shown {
-    opacity: 1.0;
-    /*display: block;*/
+    /*opacity: 1.0;*/
+    display: block;
 }
 button.prev, button.next {
     width:100px;
